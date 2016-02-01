@@ -1,9 +1,8 @@
 %{"base64url": {:hex, :base64url, "0.0.1"},
   "dogma": {:hex, :dogma, "0.0.11"},
-  "earmark": {:hex, :earmark, "0.1.19"},
-  "ex_doc": {:hex, :ex_doc, "0.10.0"},
-  "joken": {:hex, :joken, "0.16.1"},
+  "earmark": {:hex, :earmark, "0.2.1"},
+  "elixir_uuid": {:git, "https://github.com/zyro/elixir-uuid.git", "ffd01cdbca95eb8edf5502b80c91be1deb7ab0cb", []},
+  "ex_doc": {:hex, :ex_doc, "0.11.4"},
   "jose": {:hex, :jose, "1.6.0"},
-  "plug": {:hex, :plug, "1.0.2"},
-  "poison": {:hex, :poison, "1.5.0"},
-  "uuid": {:hex, :uuid, "1.1.1"}}
+  "plug": {:hex, :plug, "1.1.0"},
+  "poison": {:hex, :poison, "1.5.2"}}

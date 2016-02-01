@@ -24,7 +24,7 @@ defmodule Guardian.Mixfile do
   end
 
   def application do
-    [applications: [:logger, :poison, :jose, :uuid]]
+    [applications: [:logger, :poison, :jose]]
   end
 
   def docs do
@@ -42,7 +42,7 @@ defmodule Guardian.Mixfile do
      {:ex_doc, "~> 0.10", only: :docs},
      {:earmark, ">= 0.0.0", only: :docs},
      {:dogma, ">= 0.0.0", only: [:dev, :test]},
-     {:uuid, ">=1.1.1"}]
+     {:elixir_uuid, github: "zyro/elixir-uuid", app: false}]
   end
 
   defp package do
